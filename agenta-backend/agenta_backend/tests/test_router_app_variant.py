@@ -10,7 +10,7 @@ from agenta_backend.services.db_manager import (
     add_variant_based_on_image,
     engine,
     get_image,
-    get_session,
+    # get_session,
     list_app_variants,
     remove_app_variant,
 )
