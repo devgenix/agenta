@@ -16,7 +16,7 @@ class DBEngine(object):
     """
 
     def __init__(self, mode: str) -> None:
-        self.mode = mode
+        self.mode = os.environ["DB_MODE"]
         self.db_url = os.environ["MONGODB_URI"]
 
     @property
